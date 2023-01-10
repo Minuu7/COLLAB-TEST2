@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Survey Form</title>
     </head>
     <body>
-     <h1> Hello</h1>
+     <h1> Hello World</h1>
      <p> WELCOME to the website</p>
-     
-       <main>
+    <main>
 <form id="Survey Form">
   <label for="name" id= "name-label">Your Name</label>
-  <input id="Name"type="text"required>
+  <input id="Name"type="text"required placeholder="Name">
   <input type="submit">
-  <br>
+  <hr>
   <label for ="email" id= "email-label">Your email</label>
-  <input id="Email"type="email"required>
+  <input id="Email"type="email"required  placeholder="Email">
    <input type="submit">
-  <br>
+  <hr>
 <label for="number" id= "number-label">Yor Number</label>
-<input id="Number" min="1" max= "10" type ="number"required>
+<input id="Number" min="1" max= "10" type ="number"required placeholder="Number">
  <input type="submit">
+ <hr>
+<select id="dropdown">
+<option>Coffee</option>
+<option>Tea</option>
+<option>Snacks</option>
+</select>
+<input type="Submit">
+<hr>
+<input type="radio"name="radio-group" id="eggs" value="0">
+<label for="eggs">Egg</labe>
+<input type="radio"name="radio-group" id="banana" value="0">
+<label for="eggs">Banana</label>
+
+ 
+ </form>
